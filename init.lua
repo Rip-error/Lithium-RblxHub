@@ -23,9 +23,9 @@ _G.LITHIUM.Remote = Remote
 
 Hook.install()
 
-local LIB_URL = "https://raw.githubusercontent.com/YOUR_REPO/YOUR_BRANCH/main/libs/Library.lua"
-local THEME_URL = "https://raw.githubusercontent.com/YOUR_REPO/YOUR_BRANCH/main/libs/ThemeManager.lua"
-local SAVE_URL  = "https://raw.githubusercontent.com/YOUR_REPO/YOUR_BRANCH/main/libs/SaveManager.lua"
+local LIB_URL   = "https://raw.githubusercontent.com/alebinh60/asmobile/refs/heads/main/Library.lua"
+local THEME_URL = "https://raw.githubusercontent.com/alebinh60/asmobile/refs/heads/main/addons/ThemeManager.lua"
+local SAVE_URL  = "https://raw.githubusercontent.com/alebinh60/asmobile/refs/heads/main/addons/SaveManager.lua"
 
 local Library      = loadstring(game:HttpGet(LIB_URL))()
 local ThemeManager = loadstring(game:HttpGet(THEME_URL))()
